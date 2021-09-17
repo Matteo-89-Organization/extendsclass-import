@@ -1,10 +1,3 @@
-/* 
-per riutilizzare la class Persona 
-in altri contesti, devo ESPORTARE la class 
-con la keyword EXPORT, che trasforma la Classe 
-in un MODULO  (che poi dovrà essere IMPORTATO 
-con la key word IMPORT) */
-
 export class Persona{
     constructor(nome, cognome){
         this.nome = nome; 
